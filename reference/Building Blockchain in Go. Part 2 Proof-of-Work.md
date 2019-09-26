@@ -1,8 +1,12 @@
 # Building Blockchain in Go. Part 2: Proof-of-Work
 
-##          August 22, 2017                                                          [Golang](https://jeiwan.cc/tags/golang)                              [Blockchain](https://jeiwan.cc/tags/blockchain)                              [Bitcoin](https://jeiwan.cc/tags/bitcoin)                                        
-
-> Chinese translations: [by liuchengxu](https://github.com/liuchengxu/blockchain-tutorial/blob/master/content/part-2/proof-of-work.md), [by zhangli1](https://zhangli1.gitbooks.io/dummies-for-blockchain/content/).
+> Reference: 
+>
+> 1. [Original article](https://jeiwan.cc/posts/building-blockchain-in-go-part-2/)
+> 2. [Full source codes](https://github.com/Jeiwan/blockchain_go/tree/part_2)
+> 3. [Blockchain hashing algorithm](https://en.bitcoin.it/wiki/Block_hashing_algorithm)
+> 4. [Proof of work](https://en.bitcoin.it/wiki/Proof_of_work)
+> 5. [Hashcash](https://en.bitcoin.it/wiki/Hashcash)
 
 ## Introduction
 
@@ -271,12 +275,3 @@ PoW: true
 ## Conclusion
 
 Our blockchain is a step closer to its actual architecture: adding  blocks now requires hard work, thus mining is possible. But it still  lacks some crucial features: the blockchain database is not persistent,  there are no wallets, addresses, transactions, and there’s no consensus  mechanism. All these things we’ll implement in future articles, and for  now, happy mining!
-
-------
-
-Links:
-
-1. [Full source codes](https://github.com/Jeiwan/blockchain_go/tree/part_2)
-2. [Blockchain hashing algorithm](https://en.bitcoin.it/wiki/Block_hashing_algorithm)
-3. [Proof of work](https://en.bitcoin.it/wiki/Proof_of_work)
-4. [Hashcash](https://en.bitcoin.it/wiki/Hashcash)
